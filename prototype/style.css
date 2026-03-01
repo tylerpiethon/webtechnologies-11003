@@ -1,0 +1,16 @@
+#table {
+                border-collapse: /* Merge borders into a single line */
+            width 50%
+            }
+
+            th, td {
+                border: 1px solid black; /* Border thickness, style, and color */
+            padding: 10px;
+            text-align: right;
+            
+    
+          }
+
+          
+          
+        
