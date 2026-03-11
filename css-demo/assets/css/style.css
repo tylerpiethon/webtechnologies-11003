@@ -8,7 +8,21 @@ html {
   box-sizing: inherit;
 }
 
+/* --------------responsove images ---------------- */
+
+img{
+  max-width:100%;
+}
+
 /* --------------Utility Classes ---------------- */
+
+.container{
+  max-width: 960px;
+  width: 80vw;
+  margin:20px auto;
+}
+
+
 
 /* Skip link utility: hidden until focused */
 .visually-hidden {
@@ -62,7 +76,7 @@ padding:60px;
 /* T/R/B/L */
 padding: 10px 20px 10px 20px;
 /* T/B - L/R */
-padding: 20px 20px;
+padding: 20px 40px;
 }
 header.primary a{
     color:#DB80BB;
@@ -70,12 +84,13 @@ header.primary a{
 }
 
 header.primary h1{
-  font-size: 50px;
+  font-size: 40px;
+  margin: 0;
 }
 
 header.primary p.subtitle{
   font-size:1.3rem;
-  margin:10px 0;
+  margin:5px 0 20px;
   letter-spacing:.2px;
 }
 
@@ -84,11 +99,12 @@ nav.primary ul{
   padding:0;
   display:flex;
   flex-direction:row;
-  justify-content:space-evenly;
+  justify-content:space-around;
 }
 
 nav.primary ul li{
   list-style-type:none;
+  width: 30%
 }
 
 nav.primary ul li a{
@@ -97,8 +113,51 @@ padding: 5px 7.5px;
 border:1px solid #000000;
 border-radius:8px;
 transition:.5s;
+display:block;
 }
 
 nav.primary ul li a:hover{
   background-color:rgba(0,0,0,8);
+}
+
+#content h2{
+  color:#BDD9A2;
+  border-bottom:1px dotted #eeacd7
+}
+
+#content p{
+line-height:2;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  gap:20px;
+}
+
+figure{
+  margin:0;
+}
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width:500px) {
+  
+nav.primary ul{
+  flex-direction:column;
+  justify-content:space-around;
+  gap: 15px;
+}
+  
+nav.primary a{
+display:block;
+}
+  
+  
+  
 }
