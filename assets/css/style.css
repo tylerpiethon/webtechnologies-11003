@@ -1,5 +1,9 @@
 body {
-    background-color:rgb(142, 145, 149);
+    background-color:rgb(197, 197, 193);
 }
 
-  
+  li a {
+    color: rgb(185, 5, 131);
+   text-decoration: none;
+  }
+

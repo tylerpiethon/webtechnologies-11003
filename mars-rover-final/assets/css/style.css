@@ -72,13 +72,20 @@ nav ul li a:hover{
 
 }
 
-
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .rover img{
   width:300px;
   display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   margin-bottom:10px;
-
 }
 
 
